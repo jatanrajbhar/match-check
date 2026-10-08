@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Match Check</title>
+  <meta name="description" content="Pre-send profile check and rejection-feedback structuring for matchmakers (prototype, mock data).">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1>Match Check</h1>
+      <p class="sub">Checks a profile against the client's stated preferences <em>before</em> it is emailed, and turns free-text rejection feedback into structured reasons. Prototype · mock data.</p>
+    </div>
+    <div id="parser-settings" class="parser"></div>
+  </header>
+
+  <section id="metrics" class="metrics" aria-label="Team metrics"></section>
+
+  <main class="layout">
+    <nav id="client-list" class="clients" aria-label="Clients"></nav>
+    <section id="client-view" class="client-view"></section>
+  </main>
+
+  <footer class="foot">
+    Built for The Date Crew product assessment. All people are fictional.
+    <a href="https://github.com/jatanrajbhar/match-check">Source</a>
+  </footer>
+
+  <script src="src/data.js"></script>
+  <script src="src/engine.js"></script>
+  <script src="src/claude.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>

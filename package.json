@@ -1,0 +1,14 @@
+{
+  "name": "match-check",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pre-send profile check and rejection-feedback structuring for matchmakers (assessment prototype).",
+  "scripts": {
+    "test": "node --test",
+    "serve": "python -m http.server 8000",
+    "pdf": "node scripts/build-pdf.mjs"
+  },
+  "devDependencies": {
+    "marked": "^16.0.0"
+  }
+}
