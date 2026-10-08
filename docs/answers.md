@@ -97,7 +97,7 @@ More screenshots, including full pages, are in `docs/screenshots/`.
 
 ## AI usage
 
-- **Tools:** Claude Code (Claude Opus 5.5) in VS Code; Claude via the Anthropic API inside the prototype.
+- **Tools:** Claude Code
 - **Used for:** turning my Part 1 notes into the final write-up, checking the funnel maths in a Python script, drafting Parts 2–4, generating mock data, and writing the prototype and its tests.
 
 ---
